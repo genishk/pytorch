@@ -6,4 +6,6 @@ class Config:
     cuda = True
     seed = 42
     log_interval = 100
-    save_model = True 
+    save_model = True
+    experiment_name = 'mnist_training'
+    checkpoint_dir = 'checkpoints' 
